@@ -1,3 +1,4 @@
+#imports
 from vpython import *
 from consts import *
 
@@ -6,7 +7,7 @@ scene.width = 500
 scene.height = 500
 scene.background = color.gray(0)
 
-pivot = vector(0, 1, 0)
+pivot = vector(0, 1.2, 0)
 pendulumPivot = box(pos=pivot, size=vector(1, 1, 1), color=color.white)
 
 def setPendulumCoords(angle, length):
